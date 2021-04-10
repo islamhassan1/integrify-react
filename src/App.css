@@ -1,0 +1,147 @@
+/* colors  */
+:root {
+	--pure: #fefefe;
+	--light: #f0f0f0;
+	--heaven: #ffffff;
+	--button: rgb(86, 86, 230);
+}
+
+/* Reset  */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	padding: 200px;
+	padding-top: 1rem;
+}
+.container {
+	width: 100%;
+	padding: 15px;
+	margin: 0 auto;
+}
+.magic-shadow-sm {
+	position: relative;
+	background: var(--heaven);
+}
+.avatar {
+	vertical-align: middle;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+section.top-products {
+	background: var(--light);
+}
+
+.c-card {
+	width: 230px;
+	border-radius: 1rem;
+	padding: 1rem;
+	margin-bottom: 1rem;
+	font-size: .8rem;
+}
+.photo-card{
+	width: 100px;
+	height:100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: gray;
+	border-radius: 50%;
+	font-size: 40;
+	font-weight: bold;
+	margin: auto;
+	margin-bottom: 20px;
+}
+h6 {
+	color: rgb(168, 167, 167);
+}
+
+section.top-products .card-slider .c-card {
+	background: var(--heaven);
+	border-radius: 10px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+section.top-products .card-slider .c-card .product-image img {
+	width: 100%;
+	height: 100px;
+	object-fit: contain;
+	padding-bottom: 1rem;
+}
+
+section.top-products .card-slider .c-card h2 {
+	font-family: "Raleway-bold";
+	font-size: 1.3rem;
+	margin-bottom: 0.25rem;
+}
+.text-center {
+	text-align: center;
+}
+section.top-products .card-slider .c-card .stars {
+	margin-bottom: 0.5rem;
+}
+section.top-products .card-slider .c-card .stars img {
+	margin-right: 0.25rem;
+}
+section.top-products .card-slider .c-card .price {
+	color: rgb(167, 150, 133);
+	margin-bottom: 1rem;
+	cursor: pointer;
+	text-decoration: underline;
+}
+section.top-products .card-slider .c-card button {
+	color: var(--pure);
+	background: var(--button);
+	border: 2px solid var(--button);
+	border-radius: 6px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	display: flex;
+	align-items: center;
+	width: 75%;
+	font-size: .9rem;
+	font-weight: 10;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	cursor: pointer;
+	transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	text-align: center;
+	padding: .5rem;
+}
+.button {
+	text-align: center;
+	margin-left: 20%;
+}
+section.top-products .card-slider .c-card button:hover {
+	background: var(--pure);
+	color: var(--button);
+}
+
+.showcard {
+	border: 3px solid black;
+	padding: 20px;
+}
+
+ul{
+	padding-left: 20px;
+}
